@@ -1,0 +1,5 @@
+﻿     Создается библиотека D:\Study\ООП\Project1.5\x64\Debug\UnitTest1.lib и объект D:\Study\ООП\Project1.5\x64\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Car::Display(void)const " (?Display@Car@@QEBAXXZ) в функции "public: void __cdecl Lorry::Display(void)const " (?Display@Lorry@@QEBAXXZ).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Car::Read(void)" (?Read@Car@@QEAAXXZ) в функции "public: void __cdecl Lorry::Read(void)" (?Read@Lorry@@QEAAXXZ).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: double __cdecl Car::Change1(void)" (?Change1@Car@@QEAANXZ) в функции "public: void __cdecl Lorry::Read(void)" (?Read@Lorry@@QEAAXXZ).
+D:\Study\ООП\Project1.5\x64\Debug\UnitTest1.dll : fatal error LNK1120: неразрешенных внешних элементов: 3
